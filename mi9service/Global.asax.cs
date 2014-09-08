@@ -7,8 +7,14 @@ using System.Web.Routing;
 
 namespace AwesomeService
 {
+ /// <summary>
+ /// Application starts here
+ /// </summary>
     public class WebApiApplication : System.Web.HttpApplication
     {
+        /// <summary>
+        /// Application Start
+        /// </summary>
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
