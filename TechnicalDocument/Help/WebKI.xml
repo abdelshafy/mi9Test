@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Application_Start method" Url="html/5c5c74a5-9ca8-5a7e-df8e-56764b882a59.htm" />
+  <HelpKINode Title="AwesomeService namespace" Url="html/66703792-af95-298a-5fe9-51374ebe5d1a.htm" />
+  <HelpKINode Title="AwesomeService.Controllers namespace" Url="html/88d4f5c9-f0b0-8e1c-b644-8610ca480f9b.htm" />
+  <HelpKINode Title="AwesomeService.Controllers.ServiceController class">
+    <HelpKINode Title="ServiceController Class" Url="html/dbf5c966-42ca-0632-2e33-fa567d4e2b92.htm" />
+    <HelpKINode Title="ServiceController Members" Url="html/d856639b-bfc9-ffc3-fa4c-6c501735a6e5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models namespace" Url="html/ed5ed8e9-be5d-ba76-bbdb-648d0bfaa632.htm" />
+  <HelpKINode Title="AwesomeService.Models.Error class">
+    <HelpKINode Title="Error Class" Url="html/8390ff0b-31d8-ce8d-5169-91c15bb812e6.htm" />
+    <HelpKINode Title="Error Members" Url="html/231f167a-7ddc-9816-b8e8-f9986cc24066.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models.Image class">
+    <HelpKINode Title="Image Class" Url="html/366fc632-5b30-bbcc-1569-72d4fd702eba.htm" />
+    <HelpKINode Title="Image Members" Url="html/d25596da-2b05-64d6-19a3-a66d745c2b00.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models.NextEpisode class">
+    <HelpKINode Title="NextEpisode Class" Url="html/8aae35c2-dc1a-2816-040f-b731761d31df.htm" />
+    <HelpKINode Title="NextEpisode Members" Url="html/7fa5af2c-70c3-9d71-d434-b2952e70aff7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models.Output class">
+    <HelpKINode Title="Output Class" Url="html/f21faa6b-ccb9-9b5c-7a2c-a7d861cedcab.htm" />
+    <HelpKINode Title="Output Members" Url="html/c2b414ef-80c5-a43a-bf4c-0a5c7a70022b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models.Payload class">
+    <HelpKINode Title="Payload Class" Url="html/dddff938-7990-582f-cf1b-be5f53097e9f.htm" />
+    <HelpKINode Title="Payload Members" Url="html/615f02ff-b723-f15f-73c9-03c7b70db252.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models.Response class">
+    <HelpKINode Title="Response Class" Url="html/10bdace3-9d1f-706e-345e-1414b82d2264.htm" />
+    <HelpKINode Title="Response Members" Url="html/31d50c9a-7917-5c8f-dc09-e18631fecea9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models.Season class">
+    <HelpKINode Title="Season Class" Url="html/2f74a922-f031-cb3f-272f-e45f5b2800f9.htm" />
+    <HelpKINode Title="Season Members" Url="html/379b00c4-53b7-d465-aa15-1cfb9a6949c3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Models.Show class">
+    <HelpKINode Title="Show Class" Url="html/15eff1e1-7c0e-fe9c-cb3d-d5aa7f6e0235.htm" />
+    <HelpKINode Title="Show Members" Url="html/149e5ada-8083-0c5c-dc75-839fbc1d23b8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.Test namespace" Url="html/bfb8912e-d180-0f6d-e61a-ee50ce5dab2d.htm" />
+  <HelpKINode Title="AwesomeService.Test.ServiceUnitTest class">
+    <HelpKINode Title="ServiceUnitTest Class" Url="html/06da7e37-b5dd-5200-9501-59cd9790b3ce.htm" />
+    <HelpKINode Title="ServiceUnitTest Members" Url="html/7584d965-c151-565a-0977-cb3b975401e7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.WebApiApplication class">
+    <HelpKINode Title="WebApiApplication Class" Url="html/b6e1b51c-d212-42f8-d479-5cae805afe3e.htm" />
+    <HelpKINode Title="WebApiApplication Members" Url="html/ca5131ce-99ec-51de-c9c1-5bf6b438d2d9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwesomeService.WebApiConfig class">
+    <HelpKINode Title="WebApiConfig Class" Url="html/158740af-c339-ec6d-51ad-53db296abfe1.htm" />
+    <HelpKINode Title="WebApiConfig Members" Url="html/cb62ea16-9f81-bb47-8cf7-f7aee0708392.htm" />
+  </HelpKINode>
+  <HelpKINode Title="channel property" Url="html/b4cdf4df-8d3f-cdac-b889-8c9e45588d0f.htm" />
+  <HelpKINode Title="channelLogo property" Url="html/3c099660-b0f7-082e-8bab-14f859ec371b.htm" />
+  <HelpKINode Title="country property" Url="html/9397a109-8a27-db64-36bb-8616462c4eb5.htm" />
+  <HelpKINode Title="date property" Url="html/ace0e54b-768b-c402-65d5-a97f48f4dc3c.htm" />
+  <HelpKINode Title="description property" Url="html/d40cc2a6-1569-0b22-2b5a-5803f4055951.htm" />
+  <HelpKINode Title="drm property" Url="html/aa603a27-b7b3-2f9b-3d39-f52a35958f04.htm" />
+  <HelpKINode Title="episodeCount property" Url="html/138473be-dc41-7385-64d5-ab86f3b5c6b6.htm" />
+  <HelpKINode Title="Error class">
+    <HelpKINode Title="Error Class" Url="html/8390ff0b-31d8-ce8d-5169-91c15bb812e6.htm" />
+    <HelpKINode Title="Error Members" Url="html/231f167a-7ddc-9816-b8e8-f9986cc24066.htm" />
+    <HelpKINode Title="about Error class" Url="html/8390ff0b-31d8-ce8d-5169-91c15bb812e6.htm" />
+    <HelpKINode Title="all members" Url="html/231f167a-7ddc-9816-b8e8-f9986cc24066.htm" />
+    <HelpKINode Title="constructor" Url="html/df8f2eb2-3030-7c0f-f79f-4047581e6b56.htm" />
+    <HelpKINode Title="methods" Url="html/c63d7202-8e71-51fe-0cfc-4351c8be6865.htm" />
+    <HelpKINode Title="properties" Url="html/74d4fc9c-8af4-d48f-6e3f-cdc11da85444.htm" />
+  </HelpKINode>
+  <HelpKINode Title="error property" Url="html/9a226753-f018-2b5e-a2c2-5264468baf43.htm" />
+  <HelpKINode Title="Error.Error constructor" Url="html/df8f2eb2-3030-7c0f-f79f-4047581e6b56.htm" />
+  <HelpKINode Title="Error.error property" Url="html/9a226753-f018-2b5e-a2c2-5264468baf43.htm" />
+  <HelpKINode Title="genre property" Url="html/f922030c-5c1c-38a7-8b6d-73b9ab4c072f.htm" />
+  <HelpKINode Title="html property" Url="html/983eaa0c-49df-7e4a-24b3-a906967eb079.htm" />
+  <HelpKINode Title="Image class">
+    <HelpKINode Title="Image Class" Url="html/366fc632-5b30-bbcc-1569-72d4fd702eba.htm" />
+    <HelpKINode Title="Image Members" Url="html/d25596da-2b05-64d6-19a3-a66d745c2b00.htm" />
+    <HelpKINode Title="about Image class" Url="html/366fc632-5b30-bbcc-1569-72d4fd702eba.htm" />
+    <HelpKINode Title="all members" Url="html/d25596da-2b05-64d6-19a3-a66d745c2b00.htm" />
+    <HelpKINode Title="constructor" Url="html/7b125910-85ee-4898-e74d-bfb3f9d1f0de.htm" />
+    <HelpKINode Title="methods" Url="html/e9317110-5ab0-3676-f2c5-7dd21c99ce06.htm" />
+    <HelpKINode Title="properties" Url="html/15f51013-5a58-050c-180f-e35f5fb9d17f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="image property">
+    <HelpKINode Title="Payload.image Property " Url="html/29447995-dc1e-e524-ed1f-90523100e3d3.htm" />
+    <HelpKINode Title="Response.image Property " Url="html/17484419-9cf3-d720-a1f1-1c130c075374.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Image.Image constructor" Url="html/7b125910-85ee-4898-e74d-bfb3f9d1f0de.htm" />
+  <HelpKINode Title="Image.showImage property" Url="html/4118f014-a2a4-2bde-89e1-bd75a1100379.htm" />
+  <HelpKINode Title="language property" Url="html/8fa227a1-aadb-82c4-4e83-754808b58f55.htm" />
+  <HelpKINode Title="NextEpisode class">
+    <HelpKINode Title="NextEpisode Class" Url="html/8aae35c2-dc1a-2816-040f-b731761d31df.htm" />
+    <HelpKINode Title="NextEpisode Members" Url="html/7fa5af2c-70c3-9d71-d434-b2952e70aff7.htm" />
+    <HelpKINode Title="about NextEpisode class" Url="html/8aae35c2-dc1a-2816-040f-b731761d31df.htm" />
+    <HelpKINode Title="all members" Url="html/7fa5af2c-70c3-9d71-d434-b2952e70aff7.htm" />
+    <HelpKINode Title="constructor" Url="html/af8749d0-29f4-5017-ba3e-8b66e0d283ad.htm" />
+    <HelpKINode Title="methods" Url="html/02daad71-5cb8-3b7e-2669-d1dde1b7a226.htm" />
+    <HelpKINode Title="properties" Url="html/bcb39cba-bcc6-d65f-cca1-35325be33a51.htm" />
+  </HelpKINode>
+  <HelpKINode Title="nextEpisode property" Url="html/49bf77da-860a-cc70-ed0e-06e31d3fedca.htm" />
+  <HelpKINode Title="NextEpisode.channel property" Url="html/b4cdf4df-8d3f-cdac-b889-8c9e45588d0f.htm" />
+  <HelpKINode Title="NextEpisode.channelLogo property" Url="html/3c099660-b0f7-082e-8bab-14f859ec371b.htm" />
+  <HelpKINode Title="NextEpisode.date property" Url="html/ace0e54b-768b-c402-65d5-a97f48f4dc3c.htm" />
+  <HelpKINode Title="NextEpisode.html property" Url="html/983eaa0c-49df-7e4a-24b3-a906967eb079.htm" />
+  <HelpKINode Title="NextEpisode.NextEpisode constructor" Url="html/af8749d0-29f4-5017-ba3e-8b66e0d283ad.htm" />
+  <HelpKINode Title="NextEpisode.url property" Url="html/1d451d95-2a01-26bb-2f86-75f337fe4f24.htm" />
+  <HelpKINode Title="Output class">
+    <HelpKINode Title="Output Class" Url="html/f21faa6b-ccb9-9b5c-7a2c-a7d861cedcab.htm" />
+    <HelpKINode Title="Output Members" Url="html/c2b414ef-80c5-a43a-bf4c-0a5c7a70022b.htm" />
+    <HelpKINode Title="about Output class" Url="html/f21faa6b-ccb9-9b5c-7a2c-a7d861cedcab.htm" />
+    <HelpKINode Title="all members" Url="html/c2b414ef-80c5-a43a-bf4c-0a5c7a70022b.htm" />
+    <HelpKINode Title="constructor" Url="html/ece1caee-c09b-6d5f-ed49-6803ccc4e3ae.htm" />
+    <HelpKINode Title="methods" Url="html/16ebcc02-04cf-46b6-347b-266c775938f6.htm" />
+    <HelpKINode Title="properties" Url="html/c1fa2e01-d176-ffc6-c82b-7250900d4406.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Output.Output constructor" Url="html/ece1caee-c09b-6d5f-ed49-6803ccc4e3ae.htm" />
+  <HelpKINode Title="Output.response property" Url="html/13d566f6-8e5c-1b19-13df-87dc9bb71428.htm" />
+  <HelpKINode Title="Payload class">
+    <HelpKINode Title="Payload Class" Url="html/dddff938-7990-582f-cf1b-be5f53097e9f.htm" />
+    <HelpKINode Title="Payload Members" Url="html/615f02ff-b723-f15f-73c9-03c7b70db252.htm" />
+    <HelpKINode Title="about Payload class" Url="html/dddff938-7990-582f-cf1b-be5f53097e9f.htm" />
+    <HelpKINode Title="all members" Url="html/615f02ff-b723-f15f-73c9-03c7b70db252.htm" />
+    <HelpKINode Title="constructor" Url="html/ead8aa0c-5bc6-c186-250d-9a7ed380aa6d.htm" />
+    <HelpKINode Title="methods" Url="html/df41a0cd-c72c-e0c7-ac83-a43c2ed15239.htm" />
+    <HelpKINode Title="properties" Url="html/9303390e-2193-8bfe-3b40-2a70d0d96f3e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="payload property" Url="html/cd0b90c3-7b05-ab99-056c-177c84a90306.htm" />
+  <HelpKINode Title="Payload.country property" Url="html/9397a109-8a27-db64-36bb-8616462c4eb5.htm" />
+  <HelpKINode Title="Payload.description property" Url="html/d40cc2a6-1569-0b22-2b5a-5803f4055951.htm" />
+  <HelpKINode Title="Payload.drm property" Url="html/aa603a27-b7b3-2f9b-3d39-f52a35958f04.htm" />
+  <HelpKINode Title="Payload.episodeCount property" Url="html/138473be-dc41-7385-64d5-ab86f3b5c6b6.htm" />
+  <HelpKINode Title="Payload.genre property" Url="html/f922030c-5c1c-38a7-8b6d-73b9ab4c072f.htm" />
+  <HelpKINode Title="Payload.image property" Url="html/29447995-dc1e-e524-ed1f-90523100e3d3.htm" />
+  <HelpKINode Title="Payload.language property" Url="html/8fa227a1-aadb-82c4-4e83-754808b58f55.htm" />
+  <HelpKINode Title="Payload.nextEpisode property" Url="html/49bf77da-860a-cc70-ed0e-06e31d3fedca.htm" />
+  <HelpKINode Title="Payload.Payload constructor" Url="html/ead8aa0c-5bc6-c186-250d-9a7ed380aa6d.htm" />
+  <HelpKINode Title="Payload.primaryColour property" Url="html/411cc01d-a1a2-47e0-85d9-309f5d6ba8e0.htm" />
+  <HelpKINode Title="Payload.seasons property" Url="html/a33a4b05-ba75-dc1f-6ab2-8eb4eeb991aa.htm" />
+  <HelpKINode Title="Payload.slug property" Url="html/ae28da65-84ba-b9a3-4ad3-5d1c76929606.htm" />
+  <HelpKINode Title="Payload.title property" Url="html/427d35d8-157a-cc58-528f-cb89d9ef5034.htm" />
+  <HelpKINode Title="Payload.tvChannel property" Url="html/a37982c7-af50-2f3f-a29a-e93917dce571.htm" />
+  <HelpKINode Title="Post method" Url="html/d539c01e-bbd5-01e9-8433-2a59718829f8.htm" />
+  <HelpKINode Title="primaryColour property" Url="html/411cc01d-a1a2-47e0-85d9-309f5d6ba8e0.htm" />
+  <HelpKINode Title="Register method" Url="html/86f9aaf1-1ae0-56f5-5af7-358b478c98a9.htm" />
+  <HelpKINode Title="Response class">
+    <HelpKINode Title="Response Class" Url="html/10bdace3-9d1f-706e-345e-1414b82d2264.htm" />
+    <HelpKINode Title="Response Members" Url="html/31d50c9a-7917-5c8f-dc09-e18631fecea9.htm" />
+    <HelpKINode Title="about Response class" Url="html/10bdace3-9d1f-706e-345e-1414b82d2264.htm" />
+    <HelpKINode Title="all members" Url="html/31d50c9a-7917-5c8f-dc09-e18631fecea9.htm" />
+    <HelpKINode Title="constructor" Url="html/18d46416-3505-4461-f7ac-5b86a8aab256.htm" />
+    <HelpKINode Title="methods" Url="html/c0906a77-0ed2-5152-ce82-c3f3ec9bd220.htm" />
+    <HelpKINode Title="properties" Url="html/3b9af302-4323-ad73-0f8f-70c866c53264.htm" />
+  </HelpKINode>
+  <HelpKINode Title="response property" Url="html/13d566f6-8e5c-1b19-13df-87dc9bb71428.htm" />
+  <HelpKINode Title="Response.image property" Url="html/17484419-9cf3-d720-a1f1-1c130c075374.htm" />
+  <HelpKINode Title="Response.Response constructor" Url="html/18d46416-3505-4461-f7ac-5b86a8aab256.htm" />
+  <HelpKINode Title="Response.slug property" Url="html/e95fb863-849b-1c38-83d3-6bc9942480e4.htm" />
+  <HelpKINode Title="Response.title property" Url="html/4198f17d-0734-9b72-c821-aa166c5322ba.htm" />
+  <HelpKINode Title="Season class">
+    <HelpKINode Title="Season Class" Url="html/2f74a922-f031-cb3f-272f-e45f5b2800f9.htm" />
+    <HelpKINode Title="Season Members" Url="html/379b00c4-53b7-d465-aa15-1cfb9a6949c3.htm" />
+    <HelpKINode Title="about Season class" Url="html/2f74a922-f031-cb3f-272f-e45f5b2800f9.htm" />
+    <HelpKINode Title="all members" Url="html/379b00c4-53b7-d465-aa15-1cfb9a6949c3.htm" />
+    <HelpKINode Title="constructor" Url="html/445e73c4-77fc-d604-3ee9-55ac586c658d.htm" />
+    <HelpKINode Title="methods" Url="html/4b0b17f4-7f49-afb6-b34d-5aa7fed1a4e8.htm" />
+    <HelpKINode Title="properties" Url="html/109b8d54-36c8-a646-ad00-4c7ea0134bfd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Season.Season constructor" Url="html/445e73c4-77fc-d604-3ee9-55ac586c658d.htm" />
+  <HelpKINode Title="Season.slug property" Url="html/e508030c-e71d-20d5-a5b0-1da6bf9b16cf.htm" />
+  <HelpKINode Title="seasons property" Url="html/a33a4b05-ba75-dc1f-6ab2-8eb4eeb991aa.htm" />
+  <HelpKINode Title="ServiceController class">
+    <HelpKINode Title="ServiceController Class" Url="html/dbf5c966-42ca-0632-2e33-fa567d4e2b92.htm" />
+    <HelpKINode Title="ServiceController Members" Url="html/d856639b-bfc9-ffc3-fa4c-6c501735a6e5.htm" />
+    <HelpKINode Title="about ServiceController class" Url="html/dbf5c966-42ca-0632-2e33-fa567d4e2b92.htm" />
+    <HelpKINode Title="all members" Url="html/d856639b-bfc9-ffc3-fa4c-6c501735a6e5.htm" />
+    <HelpKINode Title="constructor" Url="html/10998e92-6fb9-e1bb-86ff-9f60e5a739a2.htm" />
+    <HelpKINode Title="methods" Url="html/b76c15f9-22da-332f-f8e3-d1d3fc344258.htm" />
+    <HelpKINode Title="properties" Url="html/a095bfe0-bb23-457d-6d44-a2d7c508c6f1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceController.Post method" Url="html/d539c01e-bbd5-01e9-8433-2a59718829f8.htm" />
+  <HelpKINode Title="ServiceController.ServiceController constructor" Url="html/10998e92-6fb9-e1bb-86ff-9f60e5a739a2.htm" />
+  <HelpKINode Title="ServiceUnitTest class">
+    <HelpKINode Title="ServiceUnitTest Class" Url="html/06da7e37-b5dd-5200-9501-59cd9790b3ce.htm" />
+    <HelpKINode Title="ServiceUnitTest Members" Url="html/7584d965-c151-565a-0977-cb3b975401e7.htm" />
+    <HelpKINode Title="about ServiceUnitTest class" Url="html/06da7e37-b5dd-5200-9501-59cd9790b3ce.htm" />
+    <HelpKINode Title="all members" Url="html/7584d965-c151-565a-0977-cb3b975401e7.htm" />
+    <HelpKINode Title="constructor" Url="html/f9d32a9f-3510-5e75-888d-f73f21fe7ba8.htm" />
+    <HelpKINode Title="methods" Url="html/779436bc-66ed-a6a7-d837-98928da45a17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceUnitTest.ServiceUnitTest constructor" Url="html/f9d32a9f-3510-5e75-888d-f73f21fe7ba8.htm" />
+  <HelpKINode Title="ServiceUnitTest.Should_Return_7_Valid_Results_From_The_Exam_Sample_Input method" Url="html/2b603e1d-84ce-9a5f-772b-a997f837bf1b.htm" />
+  <HelpKINode Title="ServiceUnitTest.Should_Return_Error_Message_Could_Not_Decode_For_Invalid_Input method" Url="html/017a0da6-d5fd-61f6-103a-659466a9c14d.htm" />
+  <HelpKINode Title="ServiceUnitTest.Should_Return_Http_Status_Bad_Request_400_For_Input_Without_Payload method" Url="html/ceee45b4-8cf1-1f5c-74ba-2ca1183969fc.htm" />
+  <HelpKINode Title="ServiceUnitTest.Should_Return_Http_Status_Bad_Request_400_For_Null_Input method" Url="html/465cbcca-0912-a5da-b21c-4e068d44e873.htm" />
+  <HelpKINode Title="ServiceUnitTest.Should_Return_HTTP_Status_OK_For_Valid_Input method" Url="html/fcb89f55-0461-e46a-86ff-b9000fd8887a.htm" />
+  <HelpKINode Title="ServiceUnitTest.Should_Return_Valid_JSON_Response_For_Valid_Input method" Url="html/f104c3d5-2b9b-35d5-edd0-82925ccc395d.htm" />
+  <HelpKINode Title="Should_Return_7_Valid_Results_From_The_Exam_Sample_Input method" Url="html/2b603e1d-84ce-9a5f-772b-a997f837bf1b.htm" />
+  <HelpKINode Title="Should_Return_Error_Message_Could_Not_Decode_For_Invalid_Input method" Url="html/017a0da6-d5fd-61f6-103a-659466a9c14d.htm" />
+  <HelpKINode Title="Should_Return_Http_Status_Bad_Request_400_For_Input_Without_Payload method" Url="html/ceee45b4-8cf1-1f5c-74ba-2ca1183969fc.htm" />
+  <HelpKINode Title="Should_Return_Http_Status_Bad_Request_400_For_Null_Input method" Url="html/465cbcca-0912-a5da-b21c-4e068d44e873.htm" />
+  <HelpKINode Title="Should_Return_HTTP_Status_OK_For_Valid_Input method" Url="html/fcb89f55-0461-e46a-86ff-b9000fd8887a.htm" />
+  <HelpKINode Title="Should_Return_Valid_JSON_Response_For_Valid_Input method" Url="html/f104c3d5-2b9b-35d5-edd0-82925ccc395d.htm" />
+  <HelpKINode Title="Show class">
+    <HelpKINode Title="Show Class" Url="html/15eff1e1-7c0e-fe9c-cb3d-d5aa7f6e0235.htm" />
+    <HelpKINode Title="Show Members" Url="html/149e5ada-8083-0c5c-dc75-839fbc1d23b8.htm" />
+    <HelpKINode Title="about Show class" Url="html/15eff1e1-7c0e-fe9c-cb3d-d5aa7f6e0235.htm" />
+    <HelpKINode Title="all members" Url="html/149e5ada-8083-0c5c-dc75-839fbc1d23b8.htm" />
+    <HelpKINode Title="constructor" Url="html/4622bade-9cde-1914-2bc4-76bd4917f512.htm" />
+    <HelpKINode Title="methods" Url="html/449efe1e-e2b3-c812-8f5f-a50896e65b51.htm" />
+    <HelpKINode Title="properties" Url="html/0c9cddb3-3c0b-6991-cfce-3c80616e8622.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Show.payload property" Url="html/cd0b90c3-7b05-ab99-056c-177c84a90306.htm" />
+  <HelpKINode Title="Show.Show constructor" Url="html/4622bade-9cde-1914-2bc4-76bd4917f512.htm" />
+  <HelpKINode Title="Show.skip property" Url="html/cfb6503d-dbd5-d1a0-7241-e66f3780a177.htm" />
+  <HelpKINode Title="Show.take property" Url="html/45b70aa8-95a2-ffef-ce0e-cea46dbdb24a.htm" />
+  <HelpKINode Title="Show.totalRecords property" Url="html/7baa9fcd-9ee3-fbf6-7f12-f80a388aab1f.htm" />
+  <HelpKINode Title="showImage property" Url="html/4118f014-a2a4-2bde-89e1-bd75a1100379.htm" />
+  <HelpKINode Title="skip property" Url="html/cfb6503d-dbd5-d1a0-7241-e66f3780a177.htm" />
+  <HelpKINode Title="slug property">
+    <HelpKINode Title="Payload.slug Property " Url="html/ae28da65-84ba-b9a3-4ad3-5d1c76929606.htm" />
+    <HelpKINode Title="Response.slug Property " Url="html/e95fb863-849b-1c38-83d3-6bc9942480e4.htm" />
+    <HelpKINode Title="Season.slug Property " Url="html/e508030c-e71d-20d5-a5b0-1da6bf9b16cf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="take property" Url="html/45b70aa8-95a2-ffef-ce0e-cea46dbdb24a.htm" />
+  <HelpKINode Title="title property">
+    <HelpKINode Title="Payload.title Property " Url="html/427d35d8-157a-cc58-528f-cb89d9ef5034.htm" />
+    <HelpKINode Title="Response.title Property " Url="html/4198f17d-0734-9b72-c821-aa166c5322ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="totalRecords property" Url="html/7baa9fcd-9ee3-fbf6-7f12-f80a388aab1f.htm" />
+  <HelpKINode Title="tvChannel property" Url="html/a37982c7-af50-2f3f-a29a-e93917dce571.htm" />
+  <HelpKINode Title="url property" Url="html/1d451d95-2a01-26bb-2f86-75f337fe4f24.htm" />
+  <HelpKINode Title="WebApiApplication class">
+    <HelpKINode Title="WebApiApplication Class" Url="html/b6e1b51c-d212-42f8-d479-5cae805afe3e.htm" />
+    <HelpKINode Title="WebApiApplication Members" Url="html/ca5131ce-99ec-51de-c9c1-5bf6b438d2d9.htm" />
+    <HelpKINode Title="about WebApiApplication class" Url="html/b6e1b51c-d212-42f8-d479-5cae805afe3e.htm" />
+    <HelpKINode Title="all members" Url="html/ca5131ce-99ec-51de-c9c1-5bf6b438d2d9.htm" />
+    <HelpKINode Title="constructor" Url="html/40f70b5c-61b5-50b5-caa0-125ba848e521.htm" />
+    <HelpKINode Title="events" Url="html/453f0dcf-15ff-4740-344c-f76bac41b7a4.htm" />
+    <HelpKINode Title="methods" Url="html/8a1f5fab-cab6-8022-c54a-bb781d70a794.htm" />
+    <HelpKINode Title="properties" Url="html/8b38f8d8-9bb3-c0b6-3f49-c6b16b48f2f7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebApiApplication.Application_Start method" Url="html/5c5c74a5-9ca8-5a7e-df8e-56764b882a59.htm" />
+  <HelpKINode Title="WebApiApplication.WebApiApplication constructor" Url="html/40f70b5c-61b5-50b5-caa0-125ba848e521.htm" />
+  <HelpKINode Title="WebApiConfig class">
+    <HelpKINode Title="WebApiConfig Class" Url="html/158740af-c339-ec6d-51ad-53db296abfe1.htm" />
+    <HelpKINode Title="WebApiConfig Members" Url="html/cb62ea16-9f81-bb47-8cf7-f7aee0708392.htm" />
+    <HelpKINode Title="about WebApiConfig class" Url="html/158740af-c339-ec6d-51ad-53db296abfe1.htm" />
+    <HelpKINode Title="all members" Url="html/cb62ea16-9f81-bb47-8cf7-f7aee0708392.htm" />
+    <HelpKINode Title="methods" Url="html/01ffd50b-6283-40aa-d19c-b78a520ed936.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebApiConfig.Register method" Url="html/86f9aaf1-1ae0-56f5-5af7-358b478c98a9.htm" />
+</HelpKI>

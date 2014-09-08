@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sample Consumer</title>    
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	</head>
+<body>
+<p>If the API works fine, response will be displayed below:</p>
+<div id="input"></div>
+<div id="output"></div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+       //Read Data
+        $.ajax({
+            url: "sample_request.txt",
+            type: 'GET',            
+            success: function (data) {
+                input = JSON.stringify(data);
+				$("#input").hmtl(input);
+				ServiceData(input);
+            },
+            error: function (error) {
+                $("#input").html("could not read input " + error.Message);
+            }
+        });
+
+    });
+
+	
+	function ServiceData(sampleInput) {
+    $.ajax({
+        url: "http://awesomeservice.apphb.com",
+        type: 'POST',            
+        data: JSON.stringify(sampleInput),
+        async: true,
+        cache: false,
+        dataType: "json",
+        contentType: "application/json; charset=utf-8",
+        beforeSend: function () {
+        },
+        success: function (data) {
+            $("#output").html(JSON.stringify(data));
+        },
+        error: function (error) {
+            $("#output").html(error.responseText);
+        },
+        complete: function () {               
+        }
+    });
+}
+
+</script>

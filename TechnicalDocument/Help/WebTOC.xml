@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="04f8980d-45e9-4121-86da-4fe4a4d588f1" Title="AwesomeService Namespace" Url="html/66703792-af95-298a-5fe9-51374ebe5d1a.htm">
+    <HelpTOCNode Id="b6078aca-8dbf-4e46-a130-4b196cea15c7" Title="WebApiApplication Class" Url="html/b6e1b51c-d212-42f8-d479-5cae805afe3e.htm">
+      <HelpTOCNode Title="WebApiApplication Members" Url="html/ca5131ce-99ec-51de-c9c1-5bf6b438d2d9.htm" />
+      <HelpTOCNode Title="WebApiApplication Constructor " Url="html/40f70b5c-61b5-50b5-caa0-125ba848e521.htm" />
+      <HelpTOCNode Id="2ecd916f-06e9-403e-9af4-3e0ccc45143e" Title="WebApiApplication Methods" Url="html/8a1f5fab-cab6-8022-c54a-bb781d70a794.htm">
+        <HelpTOCNode Title="Application_Start Method " Url="html/5c5c74a5-9ca8-5a7e-df8e-56764b882a59.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WebApiApplication Properties" Url="html/8b38f8d8-9bb3-c0b6-3f49-c6b16b48f2f7.htm" />
+      <HelpTOCNode Title="WebApiApplication Events" Url="html/453f0dcf-15ff-4740-344c-f76bac41b7a4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e10352c0-d6fe-4e33-8872-3cd5295619d0" Title="WebApiConfig Class" Url="html/158740af-c339-ec6d-51ad-53db296abfe1.htm">
+      <HelpTOCNode Title="WebApiConfig Members" Url="html/cb62ea16-9f81-bb47-8cf7-f7aee0708392.htm" />
+      <HelpTOCNode Id="43963136-498c-48e4-8fd6-574afa4f0fa6" Title="WebApiConfig Methods" Url="html/01ffd50b-6283-40aa-d19c-b78a520ed936.htm">
+        <HelpTOCNode Title="Register Method " Url="html/86f9aaf1-1ae0-56f5-5af7-358b478c98a9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="13813fcf-5ffb-4afa-89bb-b722a30ab8e5" Title="AwesomeService.Controllers Namespace" Url="html/88d4f5c9-f0b0-8e1c-b644-8610ca480f9b.htm">
+    <HelpTOCNode Id="20b4e078-22ba-481e-ac64-c95a6f1f2baa" Title="ServiceController Class" Url="html/dbf5c966-42ca-0632-2e33-fa567d4e2b92.htm">
+      <HelpTOCNode Title="ServiceController Members" Url="html/d856639b-bfc9-ffc3-fa4c-6c501735a6e5.htm" />
+      <HelpTOCNode Title="ServiceController Constructor " Url="html/10998e92-6fb9-e1bb-86ff-9f60e5a739a2.htm" />
+      <HelpTOCNode Id="e61584bd-988b-49d4-9288-e0b3a7145e80" Title="ServiceController Methods" Url="html/b76c15f9-22da-332f-f8e3-d1d3fc344258.htm">
+        <HelpTOCNode Title="Post Method " Url="html/d539c01e-bbd5-01e9-8433-2a59718829f8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ServiceController Properties" Url="html/a095bfe0-bb23-457d-6d44-a2d7c508c6f1.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="ba87559f-f1f8-45ac-a0d1-dc93aef858d1" Title="AwesomeService.Models Namespace" Url="html/ed5ed8e9-be5d-ba76-bbdb-648d0bfaa632.htm">
+    <HelpTOCNode Id="6e380ece-76b7-46a2-b7e0-4aeb1559f0b3" Title="Error Class" Url="html/8390ff0b-31d8-ce8d-5169-91c15bb812e6.htm">
+      <HelpTOCNode Title="Error Members" Url="html/231f167a-7ddc-9816-b8e8-f9986cc24066.htm" />
+      <HelpTOCNode Title="Error Constructor " Url="html/df8f2eb2-3030-7c0f-f79f-4047581e6b56.htm" />
+      <HelpTOCNode Title="Error Methods" Url="html/c63d7202-8e71-51fe-0cfc-4351c8be6865.htm" />
+      <HelpTOCNode Id="fcdf5eb6-1a04-4732-bfd3-e7d69b922353" Title="Error Properties" Url="html/74d4fc9c-8af4-d48f-6e3f-cdc11da85444.htm">
+        <HelpTOCNode Title="error Property " Url="html/9a226753-f018-2b5e-a2c2-5264468baf43.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5fdbc951-74b1-4667-bd83-23cf580547ee" Title="Image Class" Url="html/366fc632-5b30-bbcc-1569-72d4fd702eba.htm">
+      <HelpTOCNode Title="Image Members" Url="html/d25596da-2b05-64d6-19a3-a66d745c2b00.htm" />
+      <HelpTOCNode Title="Image Constructor " Url="html/7b125910-85ee-4898-e74d-bfb3f9d1f0de.htm" />
+      <HelpTOCNode Title="Image Methods" Url="html/e9317110-5ab0-3676-f2c5-7dd21c99ce06.htm" />
+      <HelpTOCNode Id="47241c09-b29e-4b22-bd35-6e89cd6e1fba" Title="Image Properties" Url="html/15f51013-5a58-050c-180f-e35f5fb9d17f.htm">
+        <HelpTOCNode Title="showImage Property " Url="html/4118f014-a2a4-2bde-89e1-bd75a1100379.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8ec3bc1e-c214-4575-a1bf-f24e343828e9" Title="NextEpisode Class" Url="html/8aae35c2-dc1a-2816-040f-b731761d31df.htm">
+      <HelpTOCNode Title="NextEpisode Members" Url="html/7fa5af2c-70c3-9d71-d434-b2952e70aff7.htm" />
+      <HelpTOCNode Title="NextEpisode Constructor " Url="html/af8749d0-29f4-5017-ba3e-8b66e0d283ad.htm" />
+      <HelpTOCNode Title="NextEpisode Methods" Url="html/02daad71-5cb8-3b7e-2669-d1dde1b7a226.htm" />
+      <HelpTOCNode Id="6f881607-8c34-4d66-a780-c7f9611c13ff" Title="NextEpisode Properties" Url="html/bcb39cba-bcc6-d65f-cca1-35325be33a51.htm">
+        <HelpTOCNode Title="channel Property " Url="html/b4cdf4df-8d3f-cdac-b889-8c9e45588d0f.htm" />
+        <HelpTOCNode Title="channelLogo Property " Url="html/3c099660-b0f7-082e-8bab-14f859ec371b.htm" />
+        <HelpTOCNode Title="date Property " Url="html/ace0e54b-768b-c402-65d5-a97f48f4dc3c.htm" />
+        <HelpTOCNode Title="html Property " Url="html/983eaa0c-49df-7e4a-24b3-a906967eb079.htm" />
+        <HelpTOCNode Title="url Property " Url="html/1d451d95-2a01-26bb-2f86-75f337fe4f24.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="22e2b17e-baf2-496c-824e-cb6b1b834c06" Title="Output Class" Url="html/f21faa6b-ccb9-9b5c-7a2c-a7d861cedcab.htm">
+      <HelpTOCNode Title="Output Members" Url="html/c2b414ef-80c5-a43a-bf4c-0a5c7a70022b.htm" />
+      <HelpTOCNode Title="Output Constructor " Url="html/ece1caee-c09b-6d5f-ed49-6803ccc4e3ae.htm" />
+      <HelpTOCNode Title="Output Methods" Url="html/16ebcc02-04cf-46b6-347b-266c775938f6.htm" />
+      <HelpTOCNode Id="9981a216-b251-4703-99ee-f9a21f43bcfb" Title="Output Properties" Url="html/c1fa2e01-d176-ffc6-c82b-7250900d4406.htm">
+        <HelpTOCNode Title="response Property " Url="html/13d566f6-8e5c-1b19-13df-87dc9bb71428.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="431adcd3-d0df-4f29-a7ea-0ca39af7d559" Title="Payload Class" Url="html/dddff938-7990-582f-cf1b-be5f53097e9f.htm">
+      <HelpTOCNode Title="Payload Members" Url="html/615f02ff-b723-f15f-73c9-03c7b70db252.htm" />
+      <HelpTOCNode Title="Payload Constructor " Url="html/ead8aa0c-5bc6-c186-250d-9a7ed380aa6d.htm" />
+      <HelpTOCNode Title="Payload Methods" Url="html/df41a0cd-c72c-e0c7-ac83-a43c2ed15239.htm" />
+      <HelpTOCNode Id="4c58b667-58d3-499b-8c70-c3b68775b29d" Title="Payload Properties" Url="html/9303390e-2193-8bfe-3b40-2a70d0d96f3e.htm">
+        <HelpTOCNode Title="country Property " Url="html/9397a109-8a27-db64-36bb-8616462c4eb5.htm" />
+        <HelpTOCNode Title="description Property " Url="html/d40cc2a6-1569-0b22-2b5a-5803f4055951.htm" />
+        <HelpTOCNode Title="drm Property " Url="html/aa603a27-b7b3-2f9b-3d39-f52a35958f04.htm" />
+        <HelpTOCNode Title="episodeCount Property " Url="html/138473be-dc41-7385-64d5-ab86f3b5c6b6.htm" />
+        <HelpTOCNode Title="genre Property " Url="html/f922030c-5c1c-38a7-8b6d-73b9ab4c072f.htm" />
+        <HelpTOCNode Title="image Property " Url="html/29447995-dc1e-e524-ed1f-90523100e3d3.htm" />
+        <HelpTOCNode Title="language Property " Url="html/8fa227a1-aadb-82c4-4e83-754808b58f55.htm" />
+        <HelpTOCNode Title="nextEpisode Property " Url="html/49bf77da-860a-cc70-ed0e-06e31d3fedca.htm" />
+        <HelpTOCNode Title="primaryColour Property " Url="html/411cc01d-a1a2-47e0-85d9-309f5d6ba8e0.htm" />
+        <HelpTOCNode Title="seasons Property " Url="html/a33a4b05-ba75-dc1f-6ab2-8eb4eeb991aa.htm" />
+        <HelpTOCNode Title="slug Property " Url="html/ae28da65-84ba-b9a3-4ad3-5d1c76929606.htm" />
+        <HelpTOCNode Title="title Property " Url="html/427d35d8-157a-cc58-528f-cb89d9ef5034.htm" />
+        <HelpTOCNode Title="tvChannel Property " Url="html/a37982c7-af50-2f3f-a29a-e93917dce571.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5817cbac-2696-44fc-9567-f6e9b84a8663" Title="Response Class" Url="html/10bdace3-9d1f-706e-345e-1414b82d2264.htm">
+      <HelpTOCNode Title="Response Members" Url="html/31d50c9a-7917-5c8f-dc09-e18631fecea9.htm" />
+      <HelpTOCNode Title="Response Constructor " Url="html/18d46416-3505-4461-f7ac-5b86a8aab256.htm" />
+      <HelpTOCNode Title="Response Methods" Url="html/c0906a77-0ed2-5152-ce82-c3f3ec9bd220.htm" />
+      <HelpTOCNode Id="7008354a-26e1-496c-a976-58de7aa3bac6" Title="Response Properties" Url="html/3b9af302-4323-ad73-0f8f-70c866c53264.htm">
+        <HelpTOCNode Title="image Property " Url="html/17484419-9cf3-d720-a1f1-1c130c075374.htm" />
+        <HelpTOCNode Title="slug Property " Url="html/e95fb863-849b-1c38-83d3-6bc9942480e4.htm" />
+        <HelpTOCNode Title="title Property " Url="html/4198f17d-0734-9b72-c821-aa166c5322ba.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="41f77216-e95a-4305-afa5-fa7727e7354f" Title="Season Class" Url="html/2f74a922-f031-cb3f-272f-e45f5b2800f9.htm">
+      <HelpTOCNode Title="Season Members" Url="html/379b00c4-53b7-d465-aa15-1cfb9a6949c3.htm" />
+      <HelpTOCNode Title="Season Constructor " Url="html/445e73c4-77fc-d604-3ee9-55ac586c658d.htm" />
+      <HelpTOCNode Title="Season Methods" Url="html/4b0b17f4-7f49-afb6-b34d-5aa7fed1a4e8.htm" />
+      <HelpTOCNode Id="f727dbc9-03c6-44a7-8394-b5f3ab667168" Title="Season Properties" Url="html/109b8d54-36c8-a646-ad00-4c7ea0134bfd.htm">
+        <HelpTOCNode Title="slug Property " Url="html/e508030c-e71d-20d5-a5b0-1da6bf9b16cf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fcbd0262-c792-4717-b078-1e2fd50abc1a" Title="Show Class" Url="html/15eff1e1-7c0e-fe9c-cb3d-d5aa7f6e0235.htm">
+      <HelpTOCNode Title="Show Members" Url="html/149e5ada-8083-0c5c-dc75-839fbc1d23b8.htm" />
+      <HelpTOCNode Title="Show Constructor " Url="html/4622bade-9cde-1914-2bc4-76bd4917f512.htm" />
+      <HelpTOCNode Title="Show Methods" Url="html/449efe1e-e2b3-c812-8f5f-a50896e65b51.htm" />
+      <HelpTOCNode Id="363bbc24-b427-4bed-a9b9-c5f1cbc677d4" Title="Show Properties" Url="html/0c9cddb3-3c0b-6991-cfce-3c80616e8622.htm">
+        <HelpTOCNode Title="payload Property " Url="html/cd0b90c3-7b05-ab99-056c-177c84a90306.htm" />
+        <HelpTOCNode Title="skip Property " Url="html/cfb6503d-dbd5-d1a0-7241-e66f3780a177.htm" />
+        <HelpTOCNode Title="take Property " Url="html/45b70aa8-95a2-ffef-ce0e-cea46dbdb24a.htm" />
+        <HelpTOCNode Title="totalRecords Property " Url="html/7baa9fcd-9ee3-fbf6-7f12-f80a388aab1f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="70468437-0eed-49d8-a0c7-61d2a706f3b9" Title="AwesomeService.Test Namespace" Url="html/bfb8912e-d180-0f6d-e61a-ee50ce5dab2d.htm">
+    <HelpTOCNode Id="dd2a5c6e-9cb5-44f8-a472-09106e691e33" Title="ServiceUnitTest Class" Url="html/06da7e37-b5dd-5200-9501-59cd9790b3ce.htm">
+      <HelpTOCNode Title="ServiceUnitTest Members" Url="html/7584d965-c151-565a-0977-cb3b975401e7.htm" />
+      <HelpTOCNode Title="ServiceUnitTest Constructor " Url="html/f9d32a9f-3510-5e75-888d-f73f21fe7ba8.htm" />
+      <HelpTOCNode Id="5fbdc3c0-5011-463d-9082-597df5b38ae7" Title="ServiceUnitTest Methods" Url="html/779436bc-66ed-a6a7-d837-98928da45a17.htm">
+        <HelpTOCNode Title="Should_Return_7_Valid_Results_From_The_Exam_Sample_Input Method " Url="html/2b603e1d-84ce-9a5f-772b-a997f837bf1b.htm" />
+        <HelpTOCNode Title="Should_Return_Error_Message_Could_Not_Decode_For_Invalid_Input Method " Url="html/017a0da6-d5fd-61f6-103a-659466a9c14d.htm" />
+        <HelpTOCNode Title="Should_Return_Http_Status_Bad_Request_400_For_Input_Without_Payload Method " Url="html/ceee45b4-8cf1-1f5c-74ba-2ca1183969fc.htm" />
+        <HelpTOCNode Title="Should_Return_Http_Status_Bad_Request_400_For_Null_Input Method " Url="html/465cbcca-0912-a5da-b21c-4e068d44e873.htm" />
+        <HelpTOCNode Title="Should_Return_HTTP_Status_OK_For_Valid_Input Method " Url="html/fcb89f55-0461-e46a-86ff-b9000fd8887a.htm" />
+        <HelpTOCNode Title="Should_Return_Valid_JSON_Response_For_Valid_Input Method " Url="html/f104c3d5-2b9b-35d5-edd0-82925ccc395d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
