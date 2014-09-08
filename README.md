@@ -1,21 +1,23 @@
 Welcome to mi9service 
 =====================
 
-#### mi9service is written in C# using ASP.NET Web Api by Mehdi Romi for demonstration for mi9 coding challenge.
+#### mi9service is written in C# using ASP.NET Web Api for mi9 coding challenge.
 
 This repository contains 2 projects as below, an example in HMTL of service use and a sample technical document automatically generated from the code documentation.
 1. mi9service project 
 mi9service is the actual implementation of the service as per specification on []()
 The project is hosted on  AppHarbor in the following address and automatically gets updated with any changes to this Git repository.
 The project is also automatically being compiled on a Continuous Integration server () and the following badge shows the live build status of the project including the unit test results.
-[![Build status](https://ci.appveyor.com/api/projects/status/02d9ncibpus24x01/branch/master)](https://ci.appveyor.com/project/mehdiromi/testawesomeservice) [![Test Results](https://ci.appveyor.com/api/projects/status/02d9ncibpus24x01/branch/master)](https://ci.appveyor.com/project/mehdiromi/testawesomeservice/build/tests)
- 
+[![Build status](https://ci.appveyor.com/api/projects/status/lwu2aha3rmp44xqm)](https://ci.appveyor.com/project/mehdiromi/mi9service)
+[![Test Results](https://ci.appveyor.com/api/projects/status/lwu2aha3rmp44xqm)](https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests)
+
 2. mi9service.Test
 mi9service.Test is the unit test project for testing the service. The test result is available in the following address:
-[https://ci.appveyor.com/project/mehdiromi/testawesomeservice/build/tests](https://ci.appveyor.com/project/mehdiromi/testawesomeservice/build/tests)
+[https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests](https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests)
 
 
-There is also a Node.js service developed for testing the service from another server. The Node.js project is located in a separate repository in the following URL: []()
+There is also a Node.js service developed for testing the service from another server. The Node.js project is located in a separate repository in the following URL: 
+[https://github.com/mehdiromi/mi9client](https://github.com/mehdiromi/mi9client)
 
 
 This is an example of consuming the exercise web service developed by Mehdi and hosted at [http://awesomeservice.apphb.com](http://awesomeservice.apphb.com).
