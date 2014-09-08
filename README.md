@@ -3,20 +3,19 @@ Welcome to mi9service
 
 #### mi9service is written in C# using ASP.NET Web Api for mi9 coding challenge.
 
-This repository contains 2 projects as below, an example in HMTL of service use and a sample technical document automatically generated from the code documentation.
+This repository contains 2 projects ( service and unit test). in addition to an example of service use and technical documents. 
+
 1. mi9service project 
 mi9service is the actual implementation of the service as per specification on []()
 The project is hosted on  AppHarbor in the following address and automatically gets updated with any changes to this Git repository.
 The project is also automatically being compiled on a Continuous Integration server () and the following badge shows the live build status of the project including the unit test results.
 [![Build status](https://ci.appveyor.com/api/projects/status/lwu2aha3rmp44xqm)](https://ci.appveyor.com/project/mehdiromi/mi9service)
 [![Test Results](https://ci.appveyor.com/api/projects/status/lwu2aha3rmp44xqm)](https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests)
-
 2. mi9service.Test
 mi9service.Test is the unit test project for testing the service. The test result is available in the following address:
 [https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests](https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests)
 
-
-There is also a Node.js service developed for testing the service from another server. The Node.js project is located in a separate repository in the following URL: 
+#### There is also a Node.js service developed for testing the service from another server. The Node.js project is located in a separate repository in the following URL: 
 [https://github.com/mehdiromi/mi9client](https://github.com/mehdiromi/mi9client)
 
 The client is also hosted in Heroku in the following address:  [mi9client.herokuapp.com](mi9client.herokuapp.com).
@@ -218,7 +217,6 @@ The actual implementation of the controller :
     }
 ```
 
-
 ## Routing 
 The default routing is changed to redirect all requests to the root of the service 
 
@@ -245,15 +243,11 @@ public static class WebApiConfig
             );
         }
     }
-	
 ```
 
-
-
-
 ### Installation
- * If you are hositng on AppHarbor.com, just clone this repository and the appharbor will look after everything else.
- * If you building on the clound services such as Appveyor or Azure, In the setting > build > Before build script,  add the following `nuget restore` so the build service will restore all necessary packages.
+ * If you are hosting on AppHarbor.com, just clone this repository and the appharbor will look after everything else.
+ * If you building on the cloud services such as Appveyor or Azure, In the setting > build > Before build script,  add the following `nuget restore` so the build service will restore all necessary packages.
  * On local machine, please clone the repository and open the solution with visual studio and build. the solution is configured to automatically download all required packages
 
 
