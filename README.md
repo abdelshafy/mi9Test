@@ -29,11 +29,7 @@ The service is web api controller that is only configured to accept requests fro
 
 The controller is simply reads an input param mapped exactly to the sample JSON request and try pass it to `ShowsWithDrmAndAtleastOneEpisode` method to filter the inputs ( drm = true  and episodeCount > 0)  using LINQ and returns a new type with the valid data.
 
-The application has 3 models for this project: 
-
-#### Error
-#### Output
-#### Show
+The application has 3 models for this project:  Error, Output, Show
 
 #### Error
 As the error type to when it returns a bad request.
@@ -49,7 +45,7 @@ As the error type to when it returns a bad request.
 ```
 
 ##### Output
-Is the valid output when applciaiton returns OK status code :
+Is the valid output when application returns OK status code :
 ```
     /// <summary>
     /// The response type. includes image, slug and title.
@@ -70,7 +66,7 @@ Is the valid output when applciaiton returns OK status code :
     }
 ```
 
-##### Shows
+##### Show
 This is the request class containing a list of payloads:
 
 ```
@@ -133,7 +129,7 @@ This is the request class containing a list of payloads:
     }
 ```
 
-#### EXception handling
+#### Exception handling
 If there is an exception in mapping the JSON to C# class or invalid data,  the controller returns an Error type :
 
 ```
@@ -192,8 +188,8 @@ The actual implementation of the controller :
         /// The cofing challenge logic is implemented in this method.
         /// This method uses LINQ to Object to filter the shows with DRM true and episodeCount > 0
         /// </summary>
-        /// <param name="input">A deserialized object of shows  equivalent to the input JSON.</param>
-        /// <returns>An object of type Ouptput with a property of response of image, slug and title fields from the input.</returns>
+        /// <param name="input">A de-serialized object of shows  equivalent to the input JSON.</param>
+        /// <returns>An object of type Output with a property of response of image, slug and title fields from the input.</returns>
         private Output ShowsWithDrmAndAtleastOneEpisode(Show input)
         {
             var data = (from p in input.payload
@@ -216,7 +212,7 @@ The actual implementation of the controller :
     }
 ```
 
-## Routing 
+#### Routing 
 The default routing is changed to redirect all requests to the root of the service 
 
 ```
@@ -244,13 +240,13 @@ public static class WebApiConfig
     }
 ```
 
-### Installation
+#### Installation
  * If you are hosting on AppHarbor.com, just clone this repository and the appharbor will look after everything else.
  * If you building on the cloud services such as Appveyor or Azure, In the setting > build > Before build script,  add the following `nuget restore` so the build service will restore all necessary packages.
  * On local machine, please clone the repository and open the solution with visual studio and build. the solution is configured to automatically download all required packages
 
 
- ### Technical documentation
+#### Technical documentation
  There is a technical documentation is automatically generated from the comments in the project by free tools [http://sandcastle.codeplex.com/](http://sandcastle.codeplex.com/).
  The document is in html format and is available in [https://github.com/mehdiromi/mi9service/tree/master/TechnicalDocument/Help](https://github.com/mehdiromi/mi9service/tree/master/TechnicalDocument/Help)
 
