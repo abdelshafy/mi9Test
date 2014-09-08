@@ -15,10 +15,8 @@ The project is also automatically being compiled on a Continuous Integration ser
 mi9service.Test is the unit test project for testing the service. The test result is available in the following address:
 [https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests](https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests)
 
-#### There is also a Node.js service developed for testing the service from another server. The Node.js project is located in a separate repository in the following URL: 
-[https://github.com/mehdiromi/mi9client](https://github.com/mehdiromi/mi9client)
-
-The client is also hosted in Heroku in the following address:  [mi9client.herokuapp.com](mi9client.herokuapp.com).
+##### There is also a Node.js service developed for testing the service from another server. The Node.js project is located in a separate repository in the following URL:  [https://github.com/mehdiromi/mi9client](https://github.com/mehdiromi/mi9client)
+The client is also hosted in Heroku in the following address:  [http://mi9client.herokuapp.com](http://mi9client.herokuapp.com).
 The client is developed for the purpose of e2e testing the service using Node.js on Express, Jade and Jquery.
 
 ## Service  address:
@@ -34,7 +32,12 @@ The controller is simply reads an input param mapped exactly to the sample JSON 
 The application has 3 models for this project: 
 
 #### Error
+#### Output
+#### Show
+
+#### Error
 As the error type to when it returns a bad request.
+
 ```
     /// <summary>
     /// Error type for returning error as Http Response.
@@ -43,9 +46,9 @@ As the error type to when it returns a bad request.
     {
         public string error { get; set; }
     }
-	```
+```
 
-#### Output
+##### Output
 Is the valid output when applciaiton returns OK status code :
 ```
     /// <summary>
@@ -65,10 +68,9 @@ Is the valid output when applciaiton returns OK status code :
     {
         public List<Response> response { get; set; }
     }
-
 ```
 
-#### Shows
+##### Shows
 This is the request class containing a list of payloads:
 
 ```
@@ -129,10 +131,7 @@ This is the request class containing a list of payloads:
         public int take { get; set; }
         public int totalRecords { get; set; }
     }
-
-	
 ```
-
 
 #### EXception handling
 If there is an exception in mapping the JSON to C# class or invalid data,  the controller returns an Error type :
