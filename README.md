@@ -34,8 +34,8 @@ The controller is simply reads an input param mapped exactly to the sample JSON 
 
 The application has 3 models for this project:  Error, Output, Show
 
-##### Error
-As the error type to when it returns a bad request.
+###### Error
+This is the error type which returns bad request as http status code.
 
 ```
     /// <summary>
