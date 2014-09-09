@@ -6,6 +6,7 @@ Welcome to mi9service
 This repository contains 2 projects ( service and unit test). in addition to an example of service use and technical documents. 
 
 * mi9service project
+
 mi9service is the actual implementation of the service as per specification on []()
 The project is hosted on  AppHarbor in the following address and automatically gets updated with any changes to this Git repository.
 The project is also automatically being compiled on a Continuous Integration server () and the following badge shows the live build status of the project including the unit test results.
@@ -13,6 +14,7 @@ The project is also automatically being compiled on a Continuous Integration ser
 [![Test Results](https://ci.appveyor.com/api/projects/status/lwu2aha3rmp44xqm)](https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests)
 
 * mi9service.Test
+
 mi9service.Test is the unit test project for testing the service. The test result is available in the following address:
 [https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests](https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests)
 
