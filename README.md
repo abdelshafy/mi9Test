@@ -22,11 +22,11 @@ mi9service.Test is the unit test project for testing the service. The test resul
 The client is also hosted in Heroku in the following address:  [http://mi9client.herokuapp.com](http://mi9client.herokuapp.com).
 The client is developed for the purpose of e2e testing the service using Node.js on Express, Jade and Jquery.
 
-## Service  address:
-The service is hosted at appharbor.com in the following address:  [http://awesomeservice.apphb.com](http://awesomeservice.apphb.com).  The service automatically reads the githut repo and re-compile and deploy the project whenever there is any new commit.
+#### Service details:
+The service is hosted at appharbor.com in the following address:  [http://awesomeservice.apphb.com](http://awesomeservice.apphb.com).  The service automatically reads the github repo and re-compile and deploy the project whenever there is any new commit.
 
 
-### How does the service work?
+#### How does the service work?
 
 The service is web api controller that is only configured to accept requests from everywhere on the internet ( for the purposes of this exam) and allows Cross Origin resource sharing.
 
@@ -34,7 +34,7 @@ The controller is simply reads an input param mapped exactly to the sample JSON 
 
 The application has 3 models for this project:  Error, Output, Show
 
-#### Error
+##### Error
 As the error type to when it returns a bad request.
 
 ```
@@ -47,7 +47,7 @@ As the error type to when it returns a bad request.
     }
 ```
 
-##### Output
+###### Output
 Is the valid output when application returns OK status code :
 ```
     /// <summary>
@@ -69,7 +69,7 @@ Is the valid output when application returns OK status code :
     }
 ```
 
-##### Show
+###### Show
 This is the request class containing a list of payloads:
 
 ```
