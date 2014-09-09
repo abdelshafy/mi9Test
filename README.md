@@ -144,7 +144,9 @@ If there is an exception in mapping the JSON to C# class or invalid data,  the c
 If everything is ok, the controller returns OK response as below:
 
 ```
- return Request.CreateResponse<Output>(HttpStatusCode.OK, ShowsWithDrmAndAtleastOneEpisode(input));
+ return Request.CreateResponse<Output>(HttpStatusCode.OK, 
+	ShowsWithDrmAndAtleastOneEpisode(input)
+	);
 ```
 
 The actual implementation of the controller :
@@ -168,18 +170,21 @@ The actual implementation of the controller :
         {
             if (input == null)
             {
-                return Request.CreateResponse<Error>(HttpStatusCode.BadRequest, new Error {
-                    error = "Could not decode request: JSON parsing failed"
+                return Request.CreateResponse<Error>(HttpStatusCode.BadRequest, 
+					new Error {
+						error = "Could not decode request: JSON parsing failed"
                 });
             }
             try
             {
-                return Request.CreateResponse<Output>(HttpStatusCode.OK, ShowsWithDrmAndAtleastOneEpisode(input));
+                return Request.CreateResponse<Output>(HttpStatusCode.OK, 
+					ShowsWithDrmAndAtleastOneEpisode(input));
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse<Error>(HttpStatusCode.BadRequest, new Error {
-                    error = "Could not decode request: " + ex.Message
+                return Request.CreateResponse<Error>(HttpStatusCode.BadRequest, 
+					new Error {
+						error = "Could not decode request: " + ex.Message
                 });
             }
         }
@@ -234,7 +239,8 @@ public static class WebApiConfig
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "{controller}/{id}",
-                defaults: new { controller = "service", id = RouteParameter.Optional }
+                defaults: new { controller = "service", 
+						id = RouteParameter.Optional }
             );
         }
     }

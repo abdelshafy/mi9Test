@@ -60,4 +60,5 @@ namespace AwesomeService.Models
         public int take { get; set; }
         public int totalRecords { get; set; }
     }
+
 }
