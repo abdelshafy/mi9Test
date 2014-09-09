@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Mi9service by mehdiromi</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Mi9service</h1>
+          <h2>mi9 service in C#   - Please also see https://github.com/mehdiromi/mi9client</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/mehdiromi/mi9service/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/mehdiromi/mi9service/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/mehdiromi/mi9service" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a name="welcome-to-mi9service-" class="anchor" href="#welcome-to-mi9service-"><span class="octicon octicon-link"></span></a>Welcome to mi9service </h1>
+
+<h4>
+<a name="mi9service-is-written-in-c-using-aspnet-web-api-for-mi9-coding-challenge" class="anchor" href="#mi9service-is-written-in-c-using-aspnet-web-api-for-mi9-coding-challenge"><span class="octicon octicon-link"></span></a>mi9service is written in C# using ASP.NET Web Api for mi9 coding challenge.</h4>
+
+<p>This repository contains 2 projects ( service and unit test). in addition to an example of service use and technical documents. </p>
+
+<ul>
+<li>mi9service project</li>
+</ul><p>mi9service is the actual implementation of the service as per specification on <a href=""></a>
+The project is hosted on  AppHarbor in the following address and automatically gets updated with any changes to this Git repository.
+The project is also automatically being compiled on a Continuous Integration server () and the following badge shows the live build status of the project including the unit test results.
+<a href="https://ci.appveyor.com/project/mehdiromi/mi9service"><img src="https://ci.appveyor.com/api/projects/status/lwu2aha3rmp44xqm" alt="Build status"></a>
+<a href="https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests"><img src="https://ci.appveyor.com/api/projects/status/lwu2aha3rmp44xqm" alt="Test Results"></a></p>
+
+<ul>
+<li>mi9service.Test</li>
+</ul><p>mi9service.Test is the unit test project for testing the service. The test result is available in the following address:
+<a href="https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests">https://ci.appveyor.com/project/mehdiromi/mi9service/build/tests</a></p>
+
+<h5>
+<a name="there-is-also-a-nodejs-service-developed-for-testing-the-service-from-another-server-the-nodejs-project-is-located-in-a-separate-repository-in-the-following-url--httpsgithubcommehdiromimi9client" class="anchor" href="#there-is-also-a-nodejs-service-developed-for-testing-the-service-from-another-server-the-nodejs-project-is-located-in-a-separate-repository-in-the-following-url--httpsgithubcommehdiromimi9client"><span class="octicon octicon-link"></span></a>There is also a Node.js service developed for testing the service from another server. The Node.js project is located in a separate repository in the following URL:  <a href="https://github.com/mehdiromi/mi9client">https://github.com/mehdiromi/mi9client</a>
+</h5>
+
+<p>The client is also hosted in Heroku in the following address:  <a href="http://mi9client.herokuapp.com">http://mi9client.herokuapp.com</a>.
+The client is developed for the purpose of e2e testing the service using Node.js on Express, Jade and Jquery.</p>
+
+<h2>
+<a name="service--address" class="anchor" href="#service--address"><span class="octicon octicon-link"></span></a>Service  address:</h2>
+
+<p>The service is hosted at appharbor.com in the following address:  <a href="http://awesomeservice.apphb.com">http://awesomeservice.apphb.com</a>.  The service automatically reads the githut repo and re-compile and deploy the project whenever there is any new commit.</p>
+
+<h3>
+<a name="how-does-the-service-work" class="anchor" href="#how-does-the-service-work"><span class="octicon octicon-link"></span></a>How does the service work?</h3>
+
+<p>The service is web api controller that is only configured to accept requests from everywhere on the internet ( for the purposes of this exam) and allows Cross Origin resource sharing.</p>
+
+<p>The controller is simply reads an input param mapped exactly to the sample JSON request and try pass it to <code>ShowsWithDrmAndAtleastOneEpisode</code> method to filter the inputs ( drm = true  and episodeCount &gt; 0)  using LINQ and returns a new type with the valid data.</p>
+
+<p>The application has 3 models for this project:  Error, Output, Show</p>
+
+<h4>
+<a name="error" class="anchor" href="#error"><span class="octicon octicon-link"></span></a>Error</h4>
+
+<p>As the error type to when it returns a bad request.</p>
+
+<pre><code>    /// &lt;summary&gt;
+    /// Error type for returning error as Http Response.
+    /// &lt;/summary&gt;
+    public class Error
+    {
+        public string error { get; set; }
+    }
+</code></pre>
+
+<h5>
+<a name="output" class="anchor" href="#output"><span class="octicon octicon-link"></span></a>Output</h5>
+
+<p>Is the valid output when application returns OK status code :</p>
+
+<pre><code>    /// &lt;summary&gt;
+    /// The response type. includes image, slug and title.
+    /// &lt;/summary&gt;
+    public class Response
+    {
+        public string image { get; set; }
+        public string slug { get; set; }
+        public string title { get; set; }
+    }
+
+    /// &lt;summary&gt;
+    /// Wrapper for the Response
+    /// &lt;/summary&gt;
+    public  class Output
+    {
+        public List&lt;Response&gt; response { get; set; }
+    }
+</code></pre>
+
+<h5>
+<a name="show" class="anchor" href="#show"><span class="octicon octicon-link"></span></a>Show</h5>
+
+<p>This is the request class containing a list of payloads:</p>
+
+<pre><code>    /// &lt;summary&gt;
+    /// Image type
+    /// &lt;/summary&gt;
+    public class Image
+    {
+        public string showImage { get; set; }
+    }
+    /// &lt;summary&gt;
+    /// NextEpisode type
+    /// &lt;/summary&gt;
+    public class NextEpisode
+    {
+        public object channel { get; set; }
+        public string channelLogo { get; set; }
+        public object date { get; set; }
+        public string html { get; set; }
+        public string url { get; set; }
+    }
+
+    /// &lt;summary&gt;
+    /// Season type used in Payload
+    /// &lt;/summary&gt;
+    public class Season
+    {
+        public string slug { get; set; }
+    }
+
+    /// &lt;summary&gt;
+    /// The request payload type
+    /// &lt;/summary&gt;
+    public class Payload
+    {
+        public string country { get; set; }
+        public string description { get; set; }
+        public bool drm { get; set; }
+        public int episodeCount { get; set; }
+        public string genre { get; set; }
+        public Image image { get; set; }
+        public string language { get; set; }
+        public NextEpisode nextEpisode { get; set; }
+        public string primaryColour { get; set; }
+        public List&lt;Season&gt; seasons { get; set; }
+        public string slug { get; set; }
+        public string title { get; set; }
+        public string tvChannel { get; set; }
+    }
+
+    /// &lt;summary&gt;
+    /// The input show 
+    /// &lt;/summary&gt;
+    public class Show
+    {
+        public List&lt;Payload&gt; payload { get; set; }
+        public int skip { get; set; }
+        public int take { get; set; }
+        public int totalRecords { get; set; }
+    }
+</code></pre>
+
+<h4>
+<a name="exception-handling" class="anchor" href="#exception-handling"><span class="octicon octicon-link"></span></a>Exception handling</h4>
+
+<p>If there is an exception in mapping the JSON to C# class or invalid data,  the controller returns an Error type :</p>
+
+<pre><code> return Request.CreateResponse&lt;Error&gt;(HttpStatusCode.BadRequest, new Error {
+                    error = "Could not decode request: JSON parsing failed"
+                });
+
+
+</code></pre>
+
+<p>If everything is ok, the controller returns OK response as below:</p>
+
+<pre><code> return Request.CreateResponse&lt;Output&gt;(HttpStatusCode.OK, 
+    ShowsWithDrmAndAtleastOneEpisode(input)
+    );
+</code></pre>
+
+<p>The actual implementation of the controller :</p>
+
+<pre><code>   /// &lt;summary&gt;
+    /// ServiceController is the main Web API for the coding challenge.
+    /// This Web Api is served on the root path of the service and is an standalone service.
+    /// For this exercise, access from all origins with all REST verbs is allowed however the service only implements POST.
+    /// &lt;/summary&gt;
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    public class ServiceController : ApiController
+    {
+        /// &lt;summary&gt;
+        /// Post action method receives a HttpRequestMessage with a content of type Show and returns HttpResponseMessage with of type Response.
+        /// &lt;/summary&gt;
+        /// &lt;param name="input"&gt;JSON input of the type show&lt;/param&gt;
+        /// &lt;returns&gt;HttpResponseMesage with Response or Error types&lt;/returns&gt;
+        [HttpPost]
+        public HttpResponseMessage Post(Show input)
+        {
+            if (input == null)
+            {
+                return Request.CreateResponse&lt;Error&gt;(HttpStatusCode.BadRequest, 
+                    new Error {
+                        error = "Could not decode request: JSON parsing failed"
+                });
+            }
+            try
+            {
+                return Request.CreateResponse&lt;Output&gt;(HttpStatusCode.OK, 
+                    ShowsWithDrmAndAtleastOneEpisode(input));
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse&lt;Error&gt;(HttpStatusCode.BadRequest, 
+                    new Error {
+                        error = "Could not decode request: " + ex.Message
+                });
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// The cofing challenge logic is implemented in this method.
+        /// This method uses LINQ to Object to filter the shows with DRM true and episodeCount &gt; 0
+        /// &lt;/summary&gt;
+        /// &lt;param name="input"&gt;A de-serialized object of shows  equivalent to the input JSON.&lt;/param&gt;
+        /// &lt;returns&gt;An object of type Output with a property of response of image, slug and title fields from the input.&lt;/returns&gt;
+        private Output ShowsWithDrmAndAtleastOneEpisode(Show input)
+        {
+            var data = (from p in input.payload
+                            where
+                                p.drm &amp;&amp;
+                                p.episodeCount &gt; 0
+                            select new Response
+                            {
+                                image = p.image.showImage,
+                                slug = p.slug,
+                                title = p.title
+                            }
+                        ).ToList();
+            return new Output
+            {
+                response = data
+            };
+        }
+
+    }
+</code></pre>
+
+<h4>
+<a name="routing" class="anchor" href="#routing"><span class="octicon octicon-link"></span></a>Routing</h4>
+
+<p>The default routing is changed to redirect all requests to the root of the service </p>
+
+<pre><code>public static class WebApiConfig
+    {
+        /// &lt;summary&gt;
+        /// Registers the configuration
+        /// Here Cross-origin resource sharing needs to be enabled.
+        /// Default routing to the API is also configured here.
+        /// &lt;/summary&gt;
+        /// &lt;param name="config"&gt;HttpConfiguration&lt;/param&gt;
+        public static void Register(HttpConfiguration config)
+        {
+            //Cross-origin resource sharing 
+            config.EnableCors();
+
+            //Default Routing
+            config.MapHttpAttributeRoutes();
+            config.Routes.MapHttpRoute(
+                name: "DefaultApi",
+                routeTemplate: "{controller}/{id}",
+                defaults: new { controller = "service", 
+                        id = RouteParameter.Optional }
+            );
+        }
+    }
+</code></pre>
+
+<h4>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h4>
+
+<ul>
+<li>If you are hosting on AppHarbor.com, just clone this repository and the appharbor will look after everything else.</li>
+<li>If you building on the cloud services such as Appveyor or Azure, In the setting &gt; build &gt; Before build script,  add the following <code>nuget restore</code> so the build service will restore all necessary packages.</li>
+<li>On local machine, please clone the repository and open the solution with visual studio and build. the solution is configured to automatically download all required packages</li>
+</ul><h4>
+<a name="technical-documentation" class="anchor" href="#technical-documentation"><span class="octicon octicon-link"></span></a>Technical documentation</h4>
+
+<p>There is a technical documentation is automatically generated from the comments in the project by free tools <a href="http://sandcastle.codeplex.com/">http://sandcastle.codeplex.com/</a>.
+ The document is in html format and is available in <a href="https://github.com/mehdiromi/mi9service/tree/master/TechnicalDocument/Help">https://github.com/mehdiromi/mi9service/tree/master/TechnicalDocument/Help</a></p>
+
+<p>This application is written by Mehdi Romi (<a href="mailto:mehdi.romi@gmail.com">mehdi.romi@gmail.com</a>) and uses free resources for development and hosting.</p>
+        </section>
+
+        <footer>
+          Mi9service is maintained by <a href="https://github.com/mehdiromi">mehdiromi</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
